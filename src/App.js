@@ -1,5 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import Heading from "./components/Heading"
+import List from "./components/List"
 
 const stl = {
   color:"blue",
@@ -39,7 +41,9 @@ function App() {
  
   return (
     <div className="App">
+      <Heading />
       <h1 style={customStyle}>{greeting}</h1>
+      <List/>
     </div>
   );
 }
